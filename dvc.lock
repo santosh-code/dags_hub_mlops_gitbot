@@ -7,10 +7,14 @@ stages:
       hash: md5
       md5: 2daeecee174368f8a33b82c8cccae3a5
       size: 84199
+    - path: data/winequality-white.csv
+      hash: md5
+      md5: 5d9ff0f7f716dace19e3ab4578775fd7
+      size: 264426
     - path: src/train.py
       hash: md5
-      md5: bb9b12cbc61cf7315678305aa99f214c
-      size: 1802
+      md5: 65dbef515723d91590762ad827b11966
+      size: 1809
     outs:
     - path: metrics.json
       hash: md5

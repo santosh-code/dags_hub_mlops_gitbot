@@ -1,10 +1,11 @@
 stages:
   train:
     cmd: python src/train.py
-    deps:            # Dependencies
+    deps:
       - data/winequality-red.csv
+      - data/winequality-white.csv
       - src/train.py
-    outs:            # Outputs (tracked by DVC)
+    outs:
       - models/model.pkl
-    metrics:         # Metrics (tracked by DVC, special handling)
+    metrics:
       - metrics.json
