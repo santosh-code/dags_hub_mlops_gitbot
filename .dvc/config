@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/santosh.flyingmachine/dags_hub_mlops_gitbot.dvc
